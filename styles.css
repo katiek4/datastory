@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding:0;
+  text-align: center;
+    z-index: 100;
+}
+
+#introbox {
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+  left: 25%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  margin-top: 50px;
+  
+}
+
+#coverimage {
+  background-color: pink;
+  height: 450px;
+  width: 100%;
+}
+
+#centerline {
+  position: fixed;
+  background-color: black;
+  width: 3px;
+  height: 100%;
+  left: 50%;
+  z-index: -1;
+} 
+
+#wrapper {
+  display: inline-block;
+  width: 90%;
+  padding-top: 45px;
+
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 48% 50%;
+  grid-auto-rows: auto;
+}
+
+.placeholder1 {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  text-align: left;
+  padding-left: 6px;
+  
+}
+
+img {
+max-width: 100%;
+}
+
+#socialpractice {
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+  left: 25%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  margin-top: 50px;
+  
+}
+
+#nowwhat {
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+  left: 25%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  margin-top: 50px;
+  
+}
+
+#footerimage {
+  background-color: black;
+  height: 450px;
+  width: 100%;
+    margin-top: 50px;
+	padding-top: 50px;
+}
+
+#footerinfo {
+	color: white;
+	margin: auto;
+  border: 1px solid white;
+  width: 50%;
+  left: 25%;
+  height: auto;
+  padding: 10px;
+	}
