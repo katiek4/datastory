@@ -1,3 +1,4 @@
+/* Aligns everything in the body to the center and raises the z-index to 100  */ 
 body {
   margin: 0;
   padding:0;
@@ -5,6 +6,7 @@ body {
     z-index: 100;
 }
 
+/* Introduction paragraph is centered in middle of the screen*/ 
 #introbox {
   margin: auto;
   border: 1px solid black;
@@ -17,12 +19,13 @@ body {
   
 }
 
+/* Cover image I selected for the header of the page*/ 
 #coverimage {
-  background-color: pink;
-  height: 450px;
-  width: 100%;
+	width: 100%;
+
 }
 
+/* Drew a solid black line down the center of the page*/ 
 #centerline {
   position: fixed;
   background-color: black;
@@ -32,6 +35,7 @@ body {
   z-index: -1;
 } 
 
+/* Incorporated inline-block elements to center divs inside this container*/ 
 #wrapper {
   display: inline-block;
   width: 90%;
@@ -39,13 +43,15 @@ body {
 
 }
 
+/* This is our grid for the columns created*/ 
 #container {
   display: grid;
   grid-template-columns: 48% 50%;
   grid-auto-rows: auto;
 }
 
-.placeholder1 {
+/* Styles the boxes in the grid*/ 
+.gridbox {
   width: 100%;
   height: auto;
   margin: 20px;
@@ -54,10 +60,13 @@ body {
   
 }
 
+
+/* Applies to all of the images on the page to fit their containers*/ 
 img {
 max-width: 100%;
 }
 
+/* Content for the Social Practices box*/ 
 #socialpractice {
   margin: auto;
   border: 1px solid black;
@@ -70,6 +79,7 @@ max-width: 100%;
   
 }
 
+/* Content for the Now What box*/ 
 #nowwhat {
   margin: auto;
   border: 1px solid black;
@@ -82,6 +92,7 @@ max-width: 100%;
   
 }
 
+/* Create contrast by incorporating a black box at the bottom of the page*/ 
 #footerimage {
   background-color: black;
   height: 450px;
@@ -90,6 +101,7 @@ max-width: 100%;
 	padding-top: 50px;
 }
 
+/* Contrasted against the footer image by make the text white in the container*/ 
 #footerinfo {
 	color: white;
 	margin: auto;
